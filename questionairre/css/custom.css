@@ -1,0 +1,29 @@
+.name{
+    background-color: antiquewhite;
+    border:1px solid black;
+}
+.sub{
+    background-color: bisque;
+    border: 1px solid black;
+}
+html{
+    padding-top: 100px;
+    background-color: black;
+    font-family: sans-serif;
+    font-family: cursive;
+}
+.div{
+        width: 800px;
+        background-image: url("crick2.png");
+        background-size: 800px 300px;
+        background-repeat: no-repeat;
+        padding-left: 200px;
+        background-position: 200px 2px;
+        
+}
+#res{
+    color: aliceblue;
+}
+#scr{
+    color: aliceblue;
+}
