@@ -1,0 +1,11 @@
+#red{
+    color: crimson;
+}
+#clr{
+    color:darkred;
+}
+#field{
+    background-image: url(sal2.png);
+    background-size: 1068px 180px;
+    background-repeat: no-repeat;
+}
