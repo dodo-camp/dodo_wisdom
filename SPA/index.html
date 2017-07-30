@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SPA</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="libs/angular.min.js"></script>
+    <script src="libs/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="models/mobile_fact/mobFact.js"></script>
+    <script src="models/tablet_fact/tabFact.js"></script>
+    <script src="models/laptop_fact/lapFact.js"></script>
+    <script src="controller/mobilecontroller.js"></script>
+    <script src="controller/tabletscontroller.js"></script>
+    <script src="controller/laptopscontroller.js"></script>
+    <script src="routes/spa-routes.js"></script>
+</head>
+
+<body ng-app="spaapp">
+    <ul id="navmenu">
+        <li><a ng-href="#/">Mobiles</a></li>
+        <li><a ng-href="#/tablets">Tablets</a></li>
+        <li><a ng-href="#/laptops">Laptops</a></li>
+    </ul>
+    <div id="main">
+        <ng-view></ng-view>
+    </div>
+</body>
+
+</html>
