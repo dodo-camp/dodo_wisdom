@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salary Cal</title>
+    <script src="libs/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="model/model.js"></script>
+    <script src="controllers/cont1.js"></script>
+    <script src="controllers/cont2.js"></script>
+    <script src="controllers/cont3.js"></script>
+</head>
+
+<body ng-app="salapp">
+    <div ng-controller="cont1">
+        <fieldset>
+            <legend>Salary cal</legend>
+
+            <label for="">Salary: </label><input type="number" ng-model="sal" ng-change="compute()">
+            <br>
+            <label for="">HRA: </label><label for="">{{hra}}</label>
+            <br>
+            <label for="">DA: </label><label for="">{{da}}</label>
+            <br>
+            <label for="">TA: </label><label for="">{{ta}}</label>
+            <br>
+            <label for="">PF: </label><label for="">{{pf}}</label>
+        </fieldset>
+    </div>
+    <div ng-controller="cont2">
+        <button ng-click="gross()">Gross</button>
+        <fieldset>
+            <label for="">{{gr}}</label>
+        </fieldset>
+    </div>
+    <div ng-controller="cont3">
+        <button ng-click="taxation()">Cut Tax</button>
+        <fieldset>
+            <label for="">{{tax}}</label>
+            <br>
+            <label for="">{{ns}}</label>
+        </fieldset>
+    </div>
+</body>
+</html>
