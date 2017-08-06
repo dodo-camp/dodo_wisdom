@@ -1,0 +1,34 @@
+[
+    {
+        "India": [
+        "Delhi",
+        "Mubmai",
+        "Gujarat",
+        "Punjab"
+    ]
+   },
+    {
+        "Japan": [
+        "Tokyo",
+        "Osaka",
+        "Kyoto",
+        "Yokohama"
+    ]
+},
+    {
+        "SriLanka": [
+        "Colombo",
+        "Kandy",
+        "Galle",
+        "Jaffna"
+    ]
+},
+    {
+        "Newzealand": [
+        "Auckland",
+        "Wellington",
+        "Christchurch",
+        "Dunedin"
+    ]
+}
+]
