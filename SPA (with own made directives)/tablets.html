@@ -1,0 +1,8 @@
+<h1>This is Tablets's Page</h1>
+Tablets are:
+<ul>
+    <li ng-repeat="i in tablets|filter:ser">
+        ID:{{i.id}}&nbsp;Name:{{i.name}}&nbsp;<img ng-src="{{i.image}}"/>
+    </li>
+    {{error}}
+</ul>

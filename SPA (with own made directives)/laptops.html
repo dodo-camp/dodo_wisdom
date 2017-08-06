@@ -1,0 +1,7 @@
+<h1>This is Laptops's Page</h1>
+Laptops are:
+<ul>
+    <li ng-repeat="i in laptops|filter:ser">
+        ID:{{i.id}}&nbsp;Name:{{i.name}}&nbsp;<img ng-src="{{i.image}}"/>
+    </li>
+</ul>

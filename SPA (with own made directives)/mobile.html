@@ -1,0 +1,9 @@
+<h1>This is Mobile's Page</h1>
+Mobiles are:
+<ul>
+    <li ng-repeat="i in mobiles|filter:ser">
+        ID:{{i.id}}&nbsp;Name:{{i.name}}&nbsp;
+        <img ng-src="{{i.image}}"/>
+    </li>
+    {{error}}
+</ul>
