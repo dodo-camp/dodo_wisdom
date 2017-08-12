@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Validation</title>
+    <link rel="stylesheet" href="custom.css">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="factory.js"></script>
+    <script src="controller.js"></script>
+</head>
+
+<body ng-app="heyapp">
+    <div ng-controller="heycntrl">
+
+        <form name="regForm" ng-submit="submit(regForm)" novalidate="novalidate">
+
+            Username: <input name="username" pattern="[0-9a-z]{3,25}" ng-model="uname" type="text" placeholder="Enter username" required/>
+
+            <span ng-show="regForm.username.$touched && regForm.username.$error.required" class="orange">Username is Required </span>
+            <span ng-show="regForm.username.$touched && regForm.username.$error.pattern">min-3 and max-25</span>
+            <br> Password : <input type="password" name="pass" ng-model="password" ng-change="checkPass(password)" placeholder="Enter password" required/>
+
+            <span ng-show="regForm.pass.$touched && regForm.pass.$error.required" class="orange">Password is Required </span>
+            <span ng-class="{green:z==1,orange:z==2,red:z==3}">{{sw}}</span>
+            <br>
+            <label for="">Country: </label>&nbsp;&nbsp;&nbsp;<select id="country" name="count" ng-model="countrySrc" ng-options="country for (country, city) in countries" ng-change="GetSelectedCountry()"required>
+              <option value='' disabled selected>Select</option>
+            </select>
+            <span ng-show="regForm.count.$error.required && regForm.count.$touched" class="orange">Select a Country</span> {{error}}
+            <br>
+
+            <label for="">City: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="city" ng-disabled="!countrySrc" name="cit" ng-model="city" ng-options="city for city in countrySrc.city" required>
+            <option value="" disabled selected>Select</option>
+            </select> 
+            <span ng-show="regForm.cit.$error.required && regForm.cit.$touched" class="orange">Select a city</span> {{error2}}
+            <br> 
+            <button type="submit">Submit</button>
+
+        </form>
+<p>{{f}}</p>
+    </div>
+</body>
+
+</html>
