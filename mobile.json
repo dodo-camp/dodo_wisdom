@@ -1,6 +1,15 @@
 [
     {
-        "id":1000,"name":"iphone 7","image":"https://i1.wp.com/3tech.org/wp-content/uploads/2017/04/iPhone-7s.jpg?resize=200%2C200&ssl=1"
+        "id":1000,"name":"iphone 7","image":"https://i1.wp.com/3tech.org/wp-content/uploads/2017/04/iPhone-7s.jpg?resize=200%2C200&ssl=1","highlights":` 32 GB ROM |
+                        4.7 inch Retina HD Display
+                        12MP Rear Camera | 
+                        7MP Front Camera
+                        Li-Ion Battery
+                        A10 Fusion Chip with 64-bit Architecture and Embedded M10 Motion Co-processor Processor`,
+        "description":`Take your iPhone experience to the next level with iPhone 7.
+                       Featuring new camera systems, a better battery-life, an efficient processor and powerful stereo speakers, 
+                       this smartphone will drastically enhance your iPhone experience.
+                       With a sharp and vibrant display, and a sleek water-resistant body, this phone is as powerful as it is attractive.`
     },
     {
         "id":1001,"name":"Samsung J7","image":"http://www.price4compare.com/wp-content/uploads/2016/09/Samsung-Galaxy-J7-2016-2.jpg"
