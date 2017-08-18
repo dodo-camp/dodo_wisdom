@@ -1,4 +1,5 @@
 [
-    {"id":1000,"name":"Micromax Canvas Tab","image":"http://ecx.images-amazon.com/images/I/41T5h4ZJnEL._SY300_QL70_.jpg"},
-    {"id":1001,"name":"Lenovo Tab 3","image":"https://s3-ap-southeast-2.amazonaws.com/wc-prod-pim/JPEG_300x300/SYLTAB310B_lenovo_tab_3_10_32gb_tablet_black.jpg"}
+    {"id":1000,"name":"Micromax Canvas Tab","image":"http://ecx.images-amazon.com/images/I/41T5h4ZJnEL._SY300_QL70_.jpg","highlights":["1 GB RAM | 16 GB ROM","5 MP Primary Camera | 2 MP Front","Android 6.0 (Marshmallow)","Battery: 4000 mAh Lithium - Ion","Voice Call (Dual Sim)"],"description":[
+"If you are looking for a tablet that you can take with you wherever you go,","the Micromax Canvas Tab is what you need."]},
+    {"id":1001,"name":"Lenovo Tab 3","image":"https://s3-ap-southeast-2.amazonaws.com/wc-prod-pim/JPEG_300x300/SYLTAB310B_lenovo_tab_3_10_32gb_tablet_black.jpg"},"highlights":["1 GB RAM | 8 GB ROM","2 MP Primary Camera | 0.3 MP Front","Android 5.0 (Lollipop), Upgradable to v6 (Marshmallow)","Battery: 3450 mAh Lithium - Ion"],"description":["With the provided RAM and processor, it is fast.","The applications, games, songs and videos are loading smooth.","Pure android, so new bloat wares! This is really good for the given configuration."]
 ]
