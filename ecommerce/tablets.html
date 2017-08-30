@@ -1,0 +1,118 @@
+<dodo-Ser></dodo-Ser>
+<br>
+<br>
+<h1>This is Tablets's Page</h1>
+<br>
+<ul class="Ul">
+    <li ng-repeat="i in tablets|filter:ser" ng-init="tabH=i.highlights;tabD=i.description;side=i.sideimg">
+        Product:
+        <p style="color:#ff00ff">{{i.name}}</p>&nbsp;<img ng-src="{{i.image}}" ng-init="z=false" ng-click="z=!z" ng-class="{img1:z==false,img2:z==true}" />
+        <div class="Div" ng-show="z==true">
+            <fieldset>
+                <legend>Details</legend>
+                <table>
+                    <tr>
+                        <td>Price</td>
+                        <td>{{i.price}}</td>
+                        <td><button class="btn btn-success" ng-init="a=false;x=false" ng-click="a=!a;x=!x" ng-disabled="isDisabled">Buy Product</button></td><td><button class="btn btn-success" ng-click="addCart(i)" ng-disabled="isDisabled">Add to Cart</button></td>
+                        <td>
+                           <div class="Div3" ng-show="a==true" style="border:1px solid black">
+                            <div class="left-arrow" ng-show="a==true" ng-init="initsee()">
+                                <a href="" class="glyphicon glyphicon-remove" ng-click="a=!a" ng-model="userDet.cancel" style="float:right;color:white;cursor:pointer"></a>
+                                <form name="regForm" class="form-horizontal" id="billingform" novalidate>
+                                    <table>
+                                       <tr><th>Product: {{i.name}}</th><th></th></tr>
+                                        <tr>
+                                            <th><label for="email">E-Mail:</label></th>
+                                            <th>
+
+                                                <input name="email" type="email" id="email" ng-model="userDet.email" required>
+                                                <span class="help-inline">  Where should we send invoices?</span>
+
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th><label for="address" class="control-label">Street Address:</label></th>
+                                            <th>
+                                                <input name="address" placeholder="W 123 Street" type="text"  id="address" ng-model="userDet.address" required><span class="help-inline">  Street Name and/or apartment number</span>
+
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th><label for="zip" class="control-label">Zip Code:</label></th>
+                                            <th>
+                                                <input name="zip" type="text"  id="zip" ng-model="userDet.zip" required>
+
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th> <label for="country" class="control-label">Country:</label></th>
+                                            <th>
+
+                                                <select id="country" name="country" ng-model="userDet.countrySrc" ng-options="country for (country, city) in countries" ng-change="GetSelectedCountry()" required>
+                                        <option value='' disabled selected>Select</option>
+                                        </select>
+
+                                            </th>
+
+                                        </tr>
+                                        <tr>
+                                            <th><label for="city" class="control-label">City:</label></th>
+                                            <th>
+                                                <select id="city" ng-disabled="!userDet.countrySrc" name="cit" ng-model="city" ng-options="city for city in userDet.countrySrc.city" required>
+                                        <option value="" disabled selected>Select</option>
+                                        </select>
+
+                                            </th>
+                                        </tr>
+                                    </table>
+                                    <br>
+                                    <button type="submit" class="btn btn-large btn-primary" style="position:relative;margin-left:210px" ng-click="Buy(regForm,i);a=userDet.s">Proceed to Buy</button>
+                                </form>
+                               </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Images
+                        </td>
+                        <td>
+                            <span ng-repeat="a in side">
+                                <img ng-src="{{a}}" class="image"> 
+                            </span>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Highlights
+                        </td>
+                        <td>
+                            <pre>
+                            <p ng-repeat="j in tabH">{{j}}</p>                
+                        </pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Description
+                        </td>
+                        <td>
+                            <pre>
+                                <p ng-repeat="k in tabD">{{k}}</p>
+                           </pre>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </li>
+    {{error}}
+</ul>

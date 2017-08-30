@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="spaapp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SPA</title>
+    <dodo-Head-Tag></dodo-Head-Tag>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/divs.css">
+     <script src="jquery.js"></script>
+    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://jslegers.github.com/jquery-bootstrap/assets/css/jquery-bootstrap.css">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="libs/angular.min.js"></script>
+    <script src="libs/angular-route.min.js"></script>
+    <script src="directives/SpeechRecognitionDirective.js"></script>
+    <script src="app.js"></script>
+    <script src="models/fact.js"></script>
+    <script src="models/loginfact.js"></script>
+    <script src="models/cartfact.js"></script>
+    <script src="models/country.js"></script>
+    <script src="models/mobile_fact/mobFact.js"></script>
+    <script src="models/tablet_fact/tabFact.js"></script>
+    <script src="models/laptop_fact/lapFact.js"></script>
+    <script src="controller/mobilecontroller.js"></script>
+    <script src="controller/tabletscontroller.js"></script>
+    <script src="controller/laptopscontroller.js"></script>
+    <script src="routes/spa-routes.js"></script>
+</head>
+
+<body>
+    <dodo-Directive></dodo-Directive>
+    <div style="background-image: url('images/image.jpg');background-size:100% 100%">
+        <ng-view></ng-view>
+    </div>
+    <dodo-Footer></dodo-Footer>
+</body>
+
+</html>

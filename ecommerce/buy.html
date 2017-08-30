@@ -1,0 +1,12 @@
+<dodo-Ser></dodo-Ser>
+<br>
+<br>
+<h1>Products Purchased</h1>
+<div ng-init="init()">
+<p class="cartP" ng-show="checkLocal()">No product Purchased</p>
+<table>
+    <tr ng-repeat="i in cartData|filter:ser">
+        <td>Product:<p style="font-weight: bold">{{i.product}}</p></td><td><img ng-src="{{i.image}}"></td><td>Your Product will be delivered at : <p style="font-weight: bold">{{i.address}}</p></td><td>
+    </tr>
+</table>
+</div>

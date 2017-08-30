@@ -1,0 +1,22 @@
+<div ng-init="init()">
+   <div style="padding-left:500px" ng-hide="isDisable">
+    <form class="form-signin" name="regForm1">       
+      <h2 class="form-signin-heading">Please login</h2>
+      <input type="text" class="form-control" name="username" placeholder="Username" ng-model="userL" required autofocus>
+      <br>
+      <br>
+      <input type="password" class="form-control" name="password" placeholder="Password" ng-model="passL" required>
+      <br>
+      <br>      
+      <button class="btn btn-lg btn-primary btn-block" style="width:209px;height:40px" type="submit" ng-click="login(regForm1)">Login</button>   
+    </form>
+</div>
+      <div ng-show="checkLog()" style="padding-left:600px">
+        <h2>Welcome {{UserName}}</h2>
+        <br>
+        <button class="btn btn-lg btn-primary btn-block" style="width:170px;height:40px" ng-click="logout()">Log Out</button>
+    </div>
+    <br>
+<span ng-hide="isDisable"><p style="padding-left:510px">If not existing user then <a ng-init="z=false" style="cursor:pointer" ng-click="signup()">sign up</a></p></span>
+    
+</div>
