@@ -1,4 +1,4 @@
-{
+[{
   communicator_project: {
     id:123,
     name:'xyz',
@@ -186,5 +186,6 @@ StoryAndProduction: {
 }
 ] 
 }
+]
 
    
