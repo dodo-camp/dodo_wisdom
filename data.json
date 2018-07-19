@@ -5,7 +5,8 @@
             "id": "100",
             "email": "mukherjee@hotmail.com",
             "name": "Dhruv",
-            "state": "Delhi",
+            "country": "USA",
+            "state": "Washington",
             "phone": "9811914938",
             "age": "21"
         },
@@ -14,6 +15,7 @@
             "id": "101",
             "email": "Heath44@hotmail.com",
             "name": "Aditya",
+            "country": "India",
             "state": "Mumbai",
             "phone": "9811914938",
             "age": "20"
@@ -23,6 +25,7 @@
             "id": "102",
             "email": "sagar@hotmail.com",
             "name": "Sagar",
+            "country": "India",
             "state": "Delhi",
             "phone": "9811914938",
             "age": "21"
@@ -32,6 +35,7 @@
             "id": "103",
             "email": "mehta@hotmail.com",
             "name": "Gautam",
+            "country": "India",
             "state": "Kerela",
             "phone": "9811914938",
             "age": "20"
@@ -41,7 +45,8 @@
             "id": "104",
             "email": "tushar@hotmail.com",
             "name": "Tushar",
-            "state": "Delhi",
+            "country": "USA",
+            "state": "Florida",
             "phone": "9811914938",
             "age": "21"
         },
@@ -50,6 +55,7 @@
             "id": "105",
             "email": "prabhat@hotmail.com",
             "name": "Prabhat",
+            "country": "India",
             "state": "Delhi",
             "phone": "9811914938",
             "age": "20"
