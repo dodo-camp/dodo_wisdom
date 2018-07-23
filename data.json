@@ -1,64 +1,34 @@
 {
     "key": [
         {
-            "username": "dhruvm1",
-            "id": "100",
-            "email": "mukherjee@hotmail.com",
-            "name": "Dhruv",
-            "country": "USA",
-            "state": "Washington",
-            "phone": "9811914938",
-            "age": "21"
+            "FORM_CODE": "FRM0000001",
+            "LABEL": "Form_Label-1",
+            "ID": "101"
         },
         {
-            "username": "adi34",
-            "id": "101",
-            "email": "Heath44@hotmail.com",
-            "name": "Aditya",
-            "country": "India",
-            "state": "Mumbai",
-            "phone": "9811914938",
-            "age": "20"
+            "FORM_CODE": "FRM0000002",
+            "LABEL": "Form_Label-2",
+            "ID": "102"
         },
         {
-            "username": "sagar76",
-            "id": "102",
-            "email": "sagar@hotmail.com",
-            "name": "Sagar",
-            "country": "India",
-            "state": "Delhi",
-            "phone": "9811914938",
-            "age": "21"
+            "FORM_CODE": "FRM0000003",
+            "LABEL": "Form_Label-3",
+            "ID": "102"
         },
         {
-            "username": "gautam123",
-            "id": "103",
-            "email": "mehta@hotmail.com",
-            "name": "Gautam",
-            "country": "India",
-            "state": "Kerela",
-            "phone": "9811914938",
-            "age": "20"
+            "FORM_CODE": "FRM0000004",
+            "LABEL": "Form_Label-4",
+            "ID": "104"
         },
         {
-            "username": "tushari8",
-            "id": "104",
-            "email": "tushar@hotmail.com",
-            "name": "Tushar",
-            "country": "USA",
-            "state": "Florida",
-            "phone": "9811914938",
-            "age": "21"
+            "FORM_CODE": "FRM0000005",
+            "LABEL": "Form_Label-5",
+            "ID": "105"
         },
         {
-            "username": "prabhatxs",
-            "id": "105",
-            "email": "prabhat@hotmail.com",
-            "name": "Prabhat",
-            "country": "India",
-            "state": "Delhi",
-            "phone": "9811914938",
-            "age": "20"
+            "FORM_CODE": "FRM0000006",
+            "LABEL": "Form_Label-6",
+            "ID": "106"
         }
     ]
 }
