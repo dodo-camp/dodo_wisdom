@@ -1,34 +1,34 @@
 {
     "key": [
         {
-            "formCode": "FRM0000001",
-            "id": "101",
-            "label": "Form-Label-1"
+            "FORM_CODE": "FRM0000001",
+            "ID": "101",
+            "LABEL": "Form-Label-1"
         },
         {
-            "formCode": "FRM0000002",
-            "id": "102",
-            "label": "Form-Label-2"
+            "FORM_CODE": "FRM0000002",
+            "ID": "102",
+            "LABEL": "Form-Label-2"
         },
         {
-            "formCode": "FRM0000003",
-            "id": "103",
-            "label": "Form-Label-3"
+            "FORM_CODE": "FRM0000003",
+            "ID": "103",
+            "LABEL": "Form-Label-3"
         },
         {
-            "formCode": "FRM0000004",
-            "id": "104",
-            "label": "Form-Label-4"
+            "FORM_CODE": "FRM0000004",
+            "ID": "104",
+            "LABEL": "Form-Label-4"
         },
         {
-            "formCode": "FRM0000005",
-            "id": "105",
-            "label": "Form-Label-6"
+            "FORM_CODE": "FRM0000005",
+            "ID": "105",
+            "LABEL": "Form-Label-6"
         },
         {
-            "formCode": "FRM0000006",
-            "id": "106",
-            "label": "Form-Label-6"
+            "FORM_CODE": "FRM0000006",
+            "ID": "106",
+            "LABEL": "Form-Label-6"
         }
     ]
 }
