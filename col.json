@@ -15,7 +15,6 @@
 		"filterable": true,
 		"editableIcon": true,
 		"title": "Users",
-		"exportToExcel": 'Y',
 		"subTitle": "Showing all users",
 		"message": {
 			"emptyMessage": "No Data to Show"
@@ -24,6 +23,6 @@
 			{ "icon": "md-get_app", "clickEvent": "download", "handlerOwner": "resource", "customCssClass": "gray_clr mr_10 pointer" },
 		],
 		"columns": [
-			{ "prop": "FORM_CODE", "name": "Form Code", "sortable": true, "resizeable": true, "width": '300', "frozenLeft": true },
+			{ "prop": "FORM_CODE", "name": "Form Code", "sortable": true, "resizeable": true, "width": "300", "frozenLeft": true },
 		]
 	}
