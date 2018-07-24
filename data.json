@@ -1,32 +1,32 @@
 {
     "key": [
         {
-            "formcode": "FRM0000001",
+            "formCode": "FRM0000001",
             "id": "101",
             "label": "Form-Label-1"
         },
         {
-            "formcode": "FRM0000002",
+            "formCode": "FRM0000002",
             "id": "102",
             "label": "Form-Label-2"
         },
         {
-            "formcode": "FRM0000003",
+            "formCode": "FRM0000003",
             "id": "103",
             "label": "Form-Label-3"
         },
         {
-            "formcode": "FRM0000004",
+            "formCode": "FRM0000004",
             "id": "104",
             "label": "Form-Label-4"
         },
         {
-            "formcode": "FRM0000005",
+            "formCode": "FRM0000005",
             "id": "105",
             "label": "Form-Label-6"
         },
         {
-            "formcode": "FRM0000006",
+            "formCode": "FRM0000006",
             "id": "106",
             "label": "Form-Label-6"
         }
