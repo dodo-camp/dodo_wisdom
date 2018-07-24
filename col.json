@@ -23,6 +23,7 @@
 		"buttons": [{ "icon": "md-get_app", "clickEvent": "download", "handlerOwner": "resource", "customCssClass": "gray_clr mr_10 pointer" }],
 		"columns": [{ "prop": "FORM_CODE", "name": "Form Code", "sortable": true, "resizeable": true, "width": "300", "frozenLeft": true },{ "prop": "LABEL", "name": "Label", "sortable": true, "resizeable": true, "width": "400", "align": "left" }],
 		"actionButtons": [{ "icon": "md-email", "clickEvent": "sendMail", "handlerOwner": "resource", "customCssClass": "gray_clr mr_10 pointer" },{ "icon": "md-person_add", "clickEvent": "addPerson", "handlerOwner": "resource", "customCssClass": "gray_clr mr_10 pointer" }],
+		"rowActions": [{ "icon": "md-create", "clickEvent": "navigateToFormGenerator", "handlerOwner": "resource", "customCssClass": "gray_clr mr_10 pointer"},{ "icon": "md-create", "clickEvent": "navigateToFormBuilder", "handlerOwner": "resource", "customCssClass": "gray_clr mr_10 pointer"}],
 		"applicableFilters": [{"type": "TXT", "code": "FLD0001001", "flexiLabel": "FORM_CODE", "label": "Form Code"},{"type": "TXT", "code": "FLD0001002", "flexiLabel": "LABEL", "label": "Label"}]
 	}
 }
