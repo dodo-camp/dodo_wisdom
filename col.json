@@ -1,4 +1,5 @@
 {		
+	"data": {
 		"formCode": "FRM0001001",
 		"rowHeight": "100",
 		"scrollbarH": true,
@@ -26,3 +27,4 @@
 			{ "prop": "FORM_CODE", "name": "Form Code", "sortable": true, "resizeable": true, "width": "300", "frozenLeft": true },
 		]
 	}
+}
