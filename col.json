@@ -1,39 +1,40 @@
-formCode: "FRM0001001",
-		rowHeight: "100",
-		scrollbarH: true,
-		headerHeight: "50",
-		limit: "3",
-		offset: "0",
-		footerHeight: '50',
-		pager: true,
-		limitShow: true,
-		selectionType: "checkbox",
-		selectAllRowsOnPage: false,
-		checkboxable: true,
-		headerCheckboxable: true,
-		filterable: true,
-		editableIcon: true,
-		title: "Users",
-		exportToExcel: 'Y',
-		subTitle: "Showing all users",
-		message: {
-			emptyMessage: "No Data to Show"
+{		
+		"formCode": "FRM0001001",
+		"rowHeight": "100",
+		"scrollbarH": true,
+		"headerHeight": "50",
+		"limit": "3",
+		"offset": "0",
+		"footerHeight": '50',
+		"pager": true,
+		"limitShow": true,
+		"selectionType": "checkbox",
+		"selectAllRowsOnPage": false,
+		"checkboxable": true,
+		"headerCheckboxable": true,
+		"filterable": true,
+		"editableIcon": true,
+		"title": "Users",
+		"exportToExcel": 'Y',
+		"subTitle": "Showing all users",
+		"message": {
+			"emptyMessage": "No Data to Show"
 		},
-		buttons: [
+		"buttons": [
 			{ icon: "md-get_app", clickEvent: "download", handlerOwner: 'resource', customCssClass: 'gray_clr mr_10 pointer' },
 		],
-		columns: [
+		"columns": [
 			{ prop: "FORM_CODE", name: "Form Code", sortable: true, resizeable: true, width: '300', frozenLeft: true },
 			{ prop: "LABEL", name: "Label", sortable: true, resizeable: true, width: '400', align: 'left' },
 		],
-		rowActions: [
+		"rowActions": [
 			{ icon: 'md-create', clickEvent: 'getFormById', handlerOwner: 'resource', customCssClass: 'gray_clr mr_10 pointer' },
 		],
-		actionButtons: [
+		"actionButtons": [
 			{ icon: 'md-email', clickEvent: 'sendMail', handlerOwner: 'resource', customCssClass: 'gray_clr mr_10 pointer' },
 			{ icon: 'md-person_add', clickEvent: 'addPerson', handlerOwner: 'resource', customCssClass: 'gray_clr mr_10 pointer' }
 		],
-		applicableFilters: [
+		"applicableFilters": [
 			{
 				type: "TXT", code: "FLD0001001", flexiLabel: "FORM_CODE", label: "Form Code"
 			},
