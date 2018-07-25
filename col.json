@@ -4,7 +4,7 @@
 		"rowHeight": "100",
 		"scrollbarH": true,
 		"headerHeight": "50",
-		"limit": "3",
+		"limit": "5",
 		"offset": "0",
 		"footerHeight": "50",
 		"pager": true,
