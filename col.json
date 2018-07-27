@@ -1,7 +1,7 @@
 {		
 	"data": {
 		"formCode": "FRM0001001",
-		"rowHeight": "100",
+		"rowHeight": "50",
 		"scrollbarH": true,
 		"headerHeight": "50",
 		"limit": "5",
