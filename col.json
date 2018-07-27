@@ -9,6 +9,7 @@
 		"footerHeight": "50",
 		"pager": true,
 		"limitShow": true,
+		"limits": ["10","15","20","25"],
 		"selectionType": "checkbox",
 		"selectAllRowsOnPage": false,
 		"checkboxable": true,
