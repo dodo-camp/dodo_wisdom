@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "course": "English",
+            "date": "02-10-1996",
+            "select": "male"
+        },
+        {
+            "course": "dhruvm1",
+            "date": "04-09-1997",
+            "select": "female"
+        },
+        {
+            "course": "dhruvm1",
+            "date": "10-11-2001",
+            "select": "male"
+        }
+    ]
+}
